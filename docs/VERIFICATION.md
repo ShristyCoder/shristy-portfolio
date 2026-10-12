@@ -63,7 +63,7 @@ The final targeted axe check returned no violations on desktop or mobile.
 ## Deployment metadata
 
 - Build output contains the title, professional description, Open Graph/Twitter metadata, resume-derived Person/ProfilePage JSON-LD, favicon, social preview PNG, robots file, and sitemap.
-- Without a known production address, absolute URL tags are gracefully omitted and the sitemap is an empty valid URL set. Configure the single `siteUrl` value in `site.config.mjs` after deployment, then rebuild.
+- The GitHub Pages address returned for `ShristyCoder/shristy-portfolio` is configured in `site.config.mjs`. Build output now includes its canonical, social image, and sitemap URLs. The workflow supplies the repository base path for assets and resume downloads.
 - SEO generation was also checked with a temporary subdirectory URL: canonical, social-image, sitemap, and robots URLs resolved correctly. Invalid deployment URLs are rejected.
 - Instructions and configuration are included for Cloudflare Pages, Netlify, Vercel, and GitHub Pages. These instructions were checked against the hosts' official documentation.
 

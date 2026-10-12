@@ -2,6 +2,13 @@
 
 A complete static portfolio built with React, TypeScript, Vite, Tailwind CSS, React Three Fiber, Drei, Framer Motion, and Lucide. The content is derived only from the replacement **Shristy_Priyadarshini_Resume.pdf**; that PDF is included unchanged for download. The engineering work cards describe professional work, not personal projects.
 
+Published with GitHub Pages under **ShristyCoder**:
+
+- Website: [shristycoder.github.io/shristy-portfolio](https://shristycoder.github.io/shristy-portfolio/)
+- Source: [ShristyCoder/shristy-portfolio](https://github.com/ShristyCoder/shristy-portfolio)
+
+Push changes to `main` to rebuild and deploy through the included GitHub Actions workflow.
+
 ## Run locally
 
 Install **Node.js 22.12 or newer** and npm. In this project's directory, run:
@@ -71,7 +78,7 @@ The visuals are authored CSS, SVG, and procedural Three.js geometry. No stock ph
 
 ## Canonical URL and SEO
 
-The single deployment URL setting is `siteUrl` in **`site.config.mjs`**. It is intentionally empty because no public deployment URL was supplied. Once the site has its final HTTPS address, set that value to the complete address, including a repository subpath when applicable, and rebuild. The optional build-time environment variable `SITE_URL` overrides the same setting. Do not set it to a preview URL when that preview should canonicalize to the production site.
+The single deployment URL setting is `siteUrl` in **`site.config.mjs`**. It is configured for `https://shristycoder.github.io/shristy-portfolio/`, including the repository subpath. Update it and rebuild if moving the site to another address. The optional build-time environment variable `SITE_URL` overrides the same setting. Do not set it to a preview URL when that preview should canonicalize to the production site.
 
 The Vite plugin generates the page title, description, Open Graph and Twitter metadata, `Person`/`ProfilePage` JSON-LD, `dist/robots.txt`, and `dist/sitemap.xml`. Until a real URL is configured, canonical and absolute social-image URL tags are omitted, `robots.txt` has no Sitemap directive, and the sitemap is a valid empty URL set. No fake domain is shipped. After configuration, the sitemap contains the portfolio's single canonical page and metadata uses the included PNG social preview. Structured data is present even before a deployment URL is configured and uses only resume-derived facts.
 

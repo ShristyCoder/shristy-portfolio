@@ -72,4 +72,4 @@ Facts supported only by the previous resume have been removed: employer industry
 
 The replacement retains all source employers, roles, locations, dates, 12 experience bullets, 29 skill entries, two certifications, education, available professional links, and stated metrics. Only the phone number is intentionally omitted from displayed contact details. Missing company domains and unlisted contact values are omitted rather than replaced with placeholders.
 
-Editorial headings and abstract infrastructure diagrams may summarize documented work themes, but must not add professional claims. SEO and social metadata must use the replacement resume's Java Backend specialization. The deployment URL remains omitted until configured in `site.config.mjs`.
+Editorial headings and abstract infrastructure diagrams summarize documented work themes without adding professional claims. SEO and social metadata use the replacement resume's Java Backend specialization. The deployment URL in `site.config.mjs` is the GitHub Pages address returned for `ShristyCoder/shristy-portfolio`.
